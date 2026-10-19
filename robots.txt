@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://enterprise-learning-notes.netlify.app/sitemap.xml
