@@ -1,0 +1,1 @@
+// No JavaScript is required for core navigation or article rendering. Keep content crawlable in HTML.
