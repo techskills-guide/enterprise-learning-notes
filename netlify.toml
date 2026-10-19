@@ -3,3 +3,23 @@
 
 # Keep the site as plain static HTML. No build command is required.
 # Add canonical URLs and sitemap entries after Netlify assigns the final site URL.
+
+[[redirects]]
+  from = "/blog/servicenow/discovery-troubleshooting.html"
+  to = "/blog/servicenow/servicenow-training-in-noida.html"
+  status = 301
+
+[[redirects]]
+  from = "/blog/servicenow/cmdb-identification-rules.html"
+  to = "/blog/servicenow/servicenow-training-in-noida.html"
+  status = 301
+
+[[redirects]]
+  from = "/blog/workday/accounting-center-basics.html"
+  to = "/blog/workday/workday-finance-training.html"
+  status = 301
+
+[[redirects]]
+  from = "/blog/workday/adaptive-planning-guide.html"
+  to = "/blog/workday/workday-finance-training.html"
+  status = 301
