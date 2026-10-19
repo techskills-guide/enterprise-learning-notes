@@ -1,13 +1,14 @@
 # Enterprise Learning Notes
 
-A static educational website with learning notes for ServiceNow and Workday.
+A small static educational website with two focused articles: one on evaluating ServiceNow training in Noida and one on Workday Finance training.
 
 ## Current content
 
-- Homepage with topic paths, featured articles, learning approach, and contextual further-learning resources.
+- Homepage with two featured articles and relevant contextual course links.
+- ServiceNow guide: `/blog/servicenow/servicenow-training-in-noida.html`
+- Workday Finance guide: `/blog/workday/workday-finance-training.html`
 - ServiceNow category: `/servicenow/`
 - Workday category: `/workday/`
-- Four initial technical articles under `/blog/servicenow/` and `/blog/workday/`
 - About page: `/about.html`
 - Editorial policy: `/editorial-policy.html`
 - Custom 404 page: `/404.html`
@@ -21,20 +22,20 @@ A static educational website with learning notes for ServiceNow and Workday.
 2. Set production branch to `main`.
 3. Leave the build command empty.
 4. Set publish directory to `.`.
-5. Deploy and copy the exact assigned `https://<site-name>.netlify.app` address.
+5. Deploy and note the exact assigned `https://<site-name>.netlify.app` address.
 
 ## SEO finalization after deployment
 
 Do not guess the Netlify hostname. Once the actual production URL is known:
-1. Add self-referencing canonical URLs to every indexable HTML page.
-2. Create `sitemap.xml` with the exact absolute URLs for the live, canonical pages.
-3. Add the sitemap location to `robots.txt`.
-4. Verify page responses, internal links, canonical targets, mobile rendering, and indexability.
+1. Add self-referencing canonical URLs to each indexable HTML page.
+2. Create `sitemap.xml` using exact absolute URLs for the live canonical pages.
+3. Add the sitemap URL to `robots.txt`.
+4. Check internal links, page responses, canonical targets, mobile rendering, and indexability.
 5. Verify the site in Google Search Console and submit the sitemap.
-6. Inspect representative URLs and monitor the Pages report. Sitemap submission and indexing requests do not guarantee indexing.
+6. Inspect representative URLs and monitor indexing reports. Sitemap submission does not guarantee indexing.
 
 ## Editorial and link policy
 
-Pages should answer a real learning question, provide original explanatory value, and link to relevant further reading only when useful. Avoid publishing repetitive or thin articles purely to place links. External training links are contextual resources; readers should verify current course information directly with the provider.
+Publish only useful, original material that answers a genuine learning question. External course links should be relevant and clearly contextual; do not publish thin or repetitive pages purely to place links. Course details and availability can change, so readers should verify them directly with the provider.
 
-Product-specific behavior may vary by release, license, security role, and tenant design. Confirm technical instructions against current official documentation. This independent site is not affiliated with ServiceNow or Workday.
+Product-specific behavior varies by release, license, and implementation. Confirm technical instructions against current official documentation. This independent site is not affiliated with ServiceNow, Workday, or TechPratham.
